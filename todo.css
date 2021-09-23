@@ -15,7 +15,11 @@ td{
   grid-template-columns: 1fr 1fr;
   row-gap: 1rem;
 }
-
+select{
+    background:transparent;
+    border:none;
+    
+}
 .todoTable-block{
   margin-top: 1rem;
   border: none;
@@ -53,10 +57,13 @@ input {
   border-bottom:2px solid #0b0c10;
 }
 
+
+
 input:hover{
     border-bottom:2px solid #55bcc9;
     
 }
+
 h3 {
   color:#0b0c10;
   font-family: 'Rowdies', cursive;
@@ -101,7 +108,7 @@ body{
     position: sticky;
     top: 0;
   }
-}
+
 
 .todo-overlay{
   width: 100vw;
