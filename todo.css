@@ -48,8 +48,15 @@ td{
 
 input {
   color:#0b0c10;
+  border:none;
+  background-color:transparent;
+  border-bottom:2px solid #0b0c10;
 }
 
+input:hover{
+    border-bottom:2px solid #55bcc9;
+    
+}
 h3 {
   color:#0b0c10;
   font-family: 'Rowdies', cursive;
